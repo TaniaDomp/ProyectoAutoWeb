@@ -25,6 +25,10 @@
             </asp:DropDownList>
             <br />
             <br />
+            Clave del auto:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="txIdAut" runat="server"></asp:TextBox>
+            <br />
+            <br />
             <asp:Label ID="lbDiaVelProm" runat="server" Text="Velocidad promedio: " Visible="False"></asp:Label>
 &nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="txDiaVelP" runat="server" Visible="False"></asp:TextBox>
