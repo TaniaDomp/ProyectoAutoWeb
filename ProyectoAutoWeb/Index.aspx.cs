@@ -29,18 +29,17 @@ namespace ProyectoAutoWeb
                 if(correo != "" & contra != "")
                 {
                     con = Conexion.agregarConexion();
-                    cmd = new SqlCommand(String.Format("SELECT contrasenia from Usuario where correo='{0}'", correo), con);
+                    cmd = new SqlCommand(String.Format("SELECT idUsu from Usuario where correo='{0}' AND contrasenia = '{1}'", correo, contra), con);
                     dr = cmd.ExecuteReader();
-                    if (dr.Read())
-                        if (dr.GetString(0).Equals(contra))
-                        {
-                            lbInSes.Text = "Inicio correcto";// correcto todo
-                            Response.Redirect("OpUsu.aspx");
-                        }
-                        else
-                            lbInSes.Text = "Contraseña incorrecta";//contraseña incorrecta
+                    if (dr.HasRows)
+                    {
+                        dr.Read();
+                        Session["idUsu"] = dr.GetInt32(0).ToString();
+                        lbInSes.Text = "Usuario y password correcto";
+                        Response.Redirect("OpUsu.aspx");
+                    }
                     else
-                        lbInSes.Text = "Usuario no registrado";//usuario no encontrado
+                        lbInSes.Text = "Usuario o contraseña incorrectos";//usuario no encontrado
                     con.Close();
                 }
                 else

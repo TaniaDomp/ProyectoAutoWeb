@@ -67,11 +67,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Agrega-Auto.aspx" />
+    <Content Include="Agrega-Viaje.aspx" />
+    <Content Include="Auto-compartido.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="OpUsu.aspx" />
+    <Content Include="Perfil.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agrega-Auto.aspx.cs">
+      <DependentUpon>Agrega-Auto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agrega-Auto.aspx.designer.cs">
+      <DependentUpon>Agrega-Auto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agrega-Viaje.aspx.cs">
+      <DependentUpon>Agrega-Viaje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agrega-Viaje.aspx.designer.cs">
+      <DependentUpon>Agrega-Viaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Auto-compartido.aspx.cs">
+      <DependentUpon>Auto-compartido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auto-compartido.aspx.designer.cs">
+      <DependentUpon>Auto-compartido.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -86,6 +111,13 @@
     </Compile>
     <Compile Include="OpUsu.aspx.designer.cs">
       <DependentUpon>OpUsu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Perfil.aspx.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Perfil.aspx.designer.cs">
+      <DependentUpon>Perfil.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

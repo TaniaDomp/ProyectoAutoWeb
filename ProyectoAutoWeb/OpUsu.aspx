@@ -11,12 +11,40 @@
     <form id="form1" runat="server">
         <div>
             <nav class="menu">
-            <ul>
-            <lu><a href="#">Inicio</a></lu>
-            <lu><a href="#">Agregar auto</a></lu>
-            <lu><a href="#">Modificar datos</a></lu>
-            </ul>
+            <lu><a href="OpUsu.aspx">Inicio</a></lu>
+            <lu><a href="Agrega-Viaje.aspx">Agregar viaje</a></lu>
+            <lu><a href="Agrega-Auto.aspx">Agregar auto</a></lu>
+            <lu><a href="Auto-compartido.aspx">Auto compartido</a></lu>
+            <lu><a href="Perfil.aspx">Perfil</a></lu>
             </nav>
+            <br />
+            Información de autos registrados:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+            &nbsp;&nbsp;&nbsp;
+            <br />
+            <asp:GridView ID="GridView1" runat="server">
+            </asp:GridView>
+            <br />
+            <br />
+            Producción total de CO2:&nbsp;
+            <asp:Label ID="txCalCO2" runat="server"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btCCO2" runat="server" Text="Calcular" />
+            <br />
+            <br />
+            Producción total de NOx:&nbsp;
+            <asp:Label ID="txCalNOx" runat="server"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btCNOx" runat="server" Text="Calcular" />
+            <br />
+            <br />
+            <br />
+            <asp:Button ID="btSalir" runat="server" Height="37px" Text="Salir" Width="122px" />
+            <br />
+            <br />
+            
+
+
+
 
         </div>
     </form>
