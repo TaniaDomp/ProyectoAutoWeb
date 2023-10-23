@@ -23,7 +23,8 @@
             Ingresa los datos:<br />
             <br />
             Clave del auto:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="txIdReg" runat="server"></asp:TextBox>
+            <asp:DropDownList ID="ddIdAu" runat="server">
+            </asp:DropDownList>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clave del usuario:
             <asp:TextBox ID="txClavUsu" runat="server"></asp:TextBox>
             <br />
