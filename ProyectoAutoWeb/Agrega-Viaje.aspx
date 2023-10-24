@@ -21,7 +21,7 @@
             Registra los datos de tus trayectos:<br />
             <br />
             Tipo de Viaje:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:DropDownList ID="ddTipoViaje" runat="server" AutoPostBack="True">
+            <asp:DropDownList ID="ddTipoViaje" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddTipoViaje_SelectedIndexChanged">
             </asp:DropDownList>
             <br />
             <br />
