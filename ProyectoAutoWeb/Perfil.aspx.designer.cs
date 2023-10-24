@@ -60,13 +60,13 @@ namespace ProyectoAutoWeb
         protected global::System.Web.UI.WebControls.Label lbNombre;
 
         /// <summary>
-        /// Control DropDownList1.
+        /// Control ddMod.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList ddMod;
 
         /// <summary>
         /// Control lbApellidos.
@@ -96,13 +96,13 @@ namespace ProyectoAutoWeb
         protected global::System.Web.UI.WebControls.Label lbDomicilio;
 
         /// <summary>
-        /// Control btMod.
+        /// Control txNuevoD.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btMod;
+        protected global::System.Web.UI.WebControls.TextBox txNuevoD;
 
         /// <summary>
         /// Control lbCorreo.
@@ -112,5 +112,23 @@ namespace ProyectoAutoWeb
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lbCorreo;
+
+        /// <summary>
+        /// Control btMod.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btMod;
+
+        /// <summary>
+        /// Control lbErrOp.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbErrOp;
     }
 }

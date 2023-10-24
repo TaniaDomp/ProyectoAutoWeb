@@ -65,7 +65,7 @@ namespace ProyectoAutoWeb
                 nombre = txNombre.Text;
                 aP = txAP.Text;
                 aM = txAM.Text;
-                domicilio = txCorreo.Text;
+                domicilio = txDom.Text;
                 correo = txCorreo.Text;
                 contrasenia = txContra.Text;
                 if(nombre != "" & aP != "" & aM != "" & domicilio != "" & correo != "" & contrasenia != "" )
