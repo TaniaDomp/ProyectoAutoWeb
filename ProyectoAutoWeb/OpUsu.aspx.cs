@@ -45,11 +45,25 @@ namespace ProyectoAutoWeb
             //checar problemas con el cast
             txtFin = "Sus emisiones son de " + totCO2 + "kg.";
             txCalCO2.Text = txtFin;
+            con.Close();
         }
 
         protected void btCNOx_Click(object sender, EventArgs e)
         {
+            SqlConnection con = Conexion.agregarConexion();
+            int idUsu;
+            float totCO2;
+            String txtFin;
 
+            idUsu = int.Parse(Session["idUsu"].ToString());
+            SqlCommand cmd = new SqlCommand(String.Format("SELECT SUM(Registro.emisionesNOxTot) FROM Registro, Automovil, Usuario, RegistroUsuario WHERE Registro.idAut = Automovil.idAut AND RegistroUsuario.idRegistro = Registro.idRegistro AND RegistroUsuario.idUsu = Usuario.idUsu AND Usuario.idUsu = {0}", idUsu), con);
+            SqlDataReader rd = cmd.ExecuteReader();
+            rd.Read();
+            totCO2 = (float)rd.GetDouble(0);
+            //checar problemas con el cast
+            txtFin = "Sus emisiones son de " + totCO2 + "kg.";
+            txCalCO2.Text = txtFin;
+            con.Close();
         }
     }
 }

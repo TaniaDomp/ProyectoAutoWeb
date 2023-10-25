@@ -38,6 +38,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="txDiaHorViaj" runat="server" Visible="False"></asp:TextBox>
             <br />
+            <asp:Button ID="btDia" runat="server" Text="Insertar" Visible="False" />
+            <br />
             <br />
             <asp:Label ID="lbSemVelProm" runat="server" Text="Velocidad promedio: " Visible="False"></asp:Label>
 &nbsp;&nbsp;&nbsp;
@@ -52,6 +54,8 @@
             <asp:Label ID="lbSemDias" runat="server" Text="Número de días de uso: " Visible="False"></asp:Label>
             <asp:TextBox ID="txSemDias" runat="server" Visible="False"></asp:TextBox>
             <br />
+            <asp:Button ID="btSemana" runat="server" Text="Insertar" Visible="False" />
+            <br />
             <br />
             <asp:Label ID="lbMesKm" runat="server" Text="Kilometros promedio: " Visible="False"></asp:Label>
             <asp:TextBox ID="txMesKm" runat="server" Visible="False"></asp:TextBox>
@@ -59,7 +63,11 @@
             <asp:Label ID="lbMesDiaUs" runat="server" Text="Número de días de uso: " Visible="False"></asp:Label>
             <asp:TextBox ID="txMesDiaUs" runat="server" Visible="False"></asp:TextBox>
             <br />
+            <asp:Button ID="btMes" runat="server" Text="Insertar" Visible="False" />
             <br />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lbExi" runat="server"></asp:Label>
             <br />
             <br />
         </div>

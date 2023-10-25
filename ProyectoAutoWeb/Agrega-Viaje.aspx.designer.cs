@@ -78,6 +78,15 @@ namespace ProyectoAutoWeb
         protected global::System.Web.UI.WebControls.TextBox txDiaHorViaj;
 
         /// <summary>
+        /// Control btDia.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btDia;
+
+        /// <summary>
         /// Control lbSemVelProm.
         /// </summary>
         /// <remarks>
@@ -132,6 +141,15 @@ namespace ProyectoAutoWeb
         protected global::System.Web.UI.WebControls.TextBox txSemDias;
 
         /// <summary>
+        /// Control btSemana.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btSemana;
+
+        /// <summary>
         /// Control lbMesKm.
         /// </summary>
         /// <remarks>
@@ -166,5 +184,23 @@ namespace ProyectoAutoWeb
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txMesDiaUs;
+
+        /// <summary>
+        /// Control btMes.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btMes;
+
+        /// <summary>
+        /// Control lbExi.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbExi;
     }
 }

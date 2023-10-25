@@ -37,19 +37,29 @@ namespace ProyectoAutoWeb
         protected void ddTipoViaje_SelectedIndexChanged(object sender, EventArgs e)
         {
 			SqlConnection con = Conexion.agregarConexion();
-			SqlCommand cmd;
-			int selec, idReg;
+			SqlCommand cmdV, cmdT, cmdAu, cmdCV;
+			int selec, idReg, res1 = 0, res2 = 0;
+			String idAut;
 
 
 			selec = ddTipoViaje.SelectedIndex;
+			idReg = int.Parse(ddIdAut.SelectedValue);
+			cmdAu = new SqlCommand(String.Format("SELECT Automovil.idAut, Automovil.emisionCO2, Automovil.emisionNOx FROM Automovil INNER JOIN Registro ON Registro.idAut = Automovil.idAut WHERE Registro.idRegistro = {0}", idReg), con);
+			SqlDataReader rdAu = cmdAu.ExecuteReader();
+			rdAu.Read();
+			idAut = rdAu.GetString(0);
+
 			//0->Por dia, 1-> Por semana, 2-> Por mes
 			switch (selec)
 			{
 				case 0:
+					
+
 					lbDiaHorViaj.Visible = true;
 					lbDiaVelProm.Visible = true;
 					txDiaHorViaj.Visible = true;
 					txDiaVelP.Visible = true;
+					btDia.Visible = true;
 
 					//oculta las demas ventanas
 					lbSemDias.Visible = false;
@@ -62,6 +72,8 @@ namespace ProyectoAutoWeb
 					lbMesKm.Visible = false;
 					txMesDiaUs.Visible = false;
 					txMesKm.Visible = false;
+					btMes.Visible = false;
+					btSemana.Visible = false;
 					break;
 				case 1:
 					lbSemDias.Visible = true;
@@ -70,6 +82,7 @@ namespace ProyectoAutoWeb
 					txSemDias.Visible = true;
 					txSemHoras.Visible = true;
 					txSemVelProm.Visible = true;
+					btSemana.Visible = true;
 
 					//oculta las demas ventanas
 					lbMesDiaUs.Visible = false;
@@ -80,12 +93,15 @@ namespace ProyectoAutoWeb
 					lbDiaVelProm.Visible = false;
 					txDiaHorViaj.Visible = false;
 					txDiaVelP.Visible = false;
+					btDia.Visible = false;
+					btMes.Visible = false;
 					break;
 				case 2:
 					lbMesDiaUs.Visible = true;
 					lbMesKm.Visible = true;
 					txMesDiaUs.Visible = true;
 					txMesKm.Visible = true;
+					btMes.Visible = true;
 
 					//oculta las demas ventanas
 					lbSemDias.Visible = false;
@@ -98,9 +114,11 @@ namespace ProyectoAutoWeb
 					lbDiaVelProm.Visible = false;
 					txDiaHorViaj.Visible = false;
 					txDiaVelP.Visible = false;
+					btDia.Visible = false;
+					btSemana.Visible = false;
 					break;
 			}
-
 		}
+
     }
 }
