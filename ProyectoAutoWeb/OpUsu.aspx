@@ -38,7 +38,7 @@
             <br />
             <br />
             <br />
-            <asp:Button ID="btSalir" runat="server" Height="37px" Text="Salir" Width="122px" />
+            <asp:Button ID="btSalir" runat="server" Height="37px" Text="Salir" Width="122px" OnClick="btSalir_Click" />
             <br />
             <br />
             

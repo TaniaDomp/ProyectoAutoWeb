@@ -87,6 +87,15 @@ namespace ProyectoAutoWeb
         protected global::System.Web.UI.WebControls.Button btDia;
 
         /// <summary>
+        /// Control lbDias.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbDias;
+
+        /// <summary>
         /// Control lbSemVelProm.
         /// </summary>
         /// <remarks>
@@ -150,6 +159,15 @@ namespace ProyectoAutoWeb
         protected global::System.Web.UI.WebControls.Button btSemana;
 
         /// <summary>
+        /// Control lbSem.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbSem;
+
+        /// <summary>
         /// Control lbMesKm.
         /// </summary>
         /// <remarks>
@@ -193,6 +211,15 @@ namespace ProyectoAutoWeb
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btMes;
+
+        /// <summary>
+        /// Control lbMes.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbMes;
 
         /// <summary>
         /// Control lbExi.
