@@ -38,7 +38,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="txDiaHorViaj" runat="server" Visible="False"></asp:TextBox>
             <br />
-            <asp:Button ID="btDia" runat="server" Text="Insertar" Visible="False" />
+            <br />
+            <asp:Button ID="btDia" runat="server" Text="Insertar" Visible="False" OnClick="btDia_Click" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lbDias" runat="server" Visible="False"></asp:Label>
             <br />
             <br />
             <asp:Label ID="lbSemVelProm" runat="server" Text="Velocidad promedio: " Visible="False"></asp:Label>
@@ -54,7 +59,12 @@
             <asp:Label ID="lbSemDias" runat="server" Text="Número de días de uso: " Visible="False"></asp:Label>
             <asp:TextBox ID="txSemDias" runat="server" Visible="False"></asp:TextBox>
             <br />
-            <asp:Button ID="btSemana" runat="server" Text="Insertar" Visible="False" />
+            <br />
+            <asp:Button ID="btSemana" runat="server" Text="Insertar" Visible="False" OnClick="btSemana_Click" />
+            <br />
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lbSem" runat="server" Visible="False"></asp:Label>
             <br />
             <br />
             <asp:Label ID="lbMesKm" runat="server" Text="Kilometros promedio: " Visible="False"></asp:Label>
@@ -63,7 +73,12 @@
             <asp:Label ID="lbMesDiaUs" runat="server" Text="Número de días de uso: " Visible="False"></asp:Label>
             <asp:TextBox ID="txMesDiaUs" runat="server" Visible="False"></asp:TextBox>
             <br />
-            <asp:Button ID="btMes" runat="server" Text="Insertar" Visible="False" />
+            <br />
+            <asp:Button ID="btMes" runat="server" Text="Insertar" Visible="False" OnClick="btMes_Click" />
+            <br />
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lbMes" runat="server" Visible="False"></asp:Label>
             <br />
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
