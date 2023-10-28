@@ -6,8 +6,17 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style>
+        body {background-color:#3CB371; font-family:Arial}
+         h1{background-color:white;text-align:center;color:#3CB371}
+    </style>
 </head>
 <body>
+     <header>
+     <h1>
+         Redu-CO2
+     </h1>
+ </header>
     <form id="form1" runat="server">
         <div>
             <nav class="menu">
@@ -18,7 +27,7 @@
             <lu><a href="Perfil.aspx">Perfil</a></lu>
             </nav>
             <br />
-            Registra los datos de tus trayectos:<br />
+            <b>Registra los datos de tus trayectos:</b><br />
             <br />
             Tipo de Viaje:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:DropDownList ID="ddTipoViaje" runat="server" AutoPostBack="True">
@@ -31,20 +40,20 @@
             <br />
             <br />
             <asp:Label ID="lbDiaVelProm" runat="server" Text="Velocidad promedio: " Visible="False"></asp:Label>
-&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp; &nbsp;
             <asp:TextBox ID="txDiaVelP" runat="server" Visible="False"></asp:TextBox>
-            &nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
             <asp:Label ID="lbDiaHorViaj" runat="server" Text="Horas viajadas: " Visible="False"></asp:Label>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="txDiaHorViaj" runat="server" Visible="False"></asp:TextBox>
             <br />
             <br />
             <asp:Label ID="lbSemVelProm" runat="server" Text="Velocidad promedio: " Visible="False"></asp:Label>
-&nbsp;&nbsp;&nbsp;
+&nbsp; &nbsp;&nbsp;
             <asp:TextBox ID="txSemVelProm" runat="server" Visible="False"></asp:TextBox>
-&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Label ID="lbSemHoras" runat="server" Text="Horas promedio por día:" Visible="False"></asp:Label>
-&nbsp;&nbsp;&nbsp;
+&nbsp; &nbsp;
             <asp:TextBox ID="txSemHoras" runat="server" Visible="False"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;
             <br />
@@ -54,9 +63,11 @@
             <br />
             <br />
             <asp:Label ID="lbMesKm" runat="server" Text="Kilometros promedio: " Visible="False"></asp:Label>
+            &nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="txMesKm" runat="server" Visible="False"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Label ID="lbMesDiaUs" runat="server" Text="Número de días de uso: " Visible="False"></asp:Label>
+            &nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="txMesDiaUs" runat="server" Visible="False"></asp:TextBox>
             <br />
             <br />

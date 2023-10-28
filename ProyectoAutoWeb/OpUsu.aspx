@@ -7,7 +7,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
+    <style>
+        body {background-color:#3CB371; font-family:Arial}
+         h1{background-color:white;text-align:center;color:#3CB371}
+    </style>
 <body>
+     <header>
+     <h1>
+         Redu-CO2
+     </h1>
+ </header>
     <form id="form1" runat="server">
         <div>
             <nav class="menu">
@@ -18,8 +27,8 @@
             <lu><a href="Perfil.aspx">Perfil</a></lu>
             </nav>
             <br />
-            Información de autos registrados:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
-            &nbsp;&nbsp;&nbsp;
+            <b>Información de autos registrados:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+            &nbsp;&nbsp;&nbsp;</b>
             <br />
             <asp:GridView ID="GridView1" runat="server">
             </asp:GridView>
@@ -27,7 +36,7 @@
             <br />
             Producción total de CO2:&nbsp;
             <asp:Label ID="txCalCO2" runat="server"></asp:Label>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="btCCO2" runat="server" Text="Calcular" />
             <br />
             <br />

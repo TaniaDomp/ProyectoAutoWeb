@@ -13,7 +13,7 @@ namespace ProyectoAutoWeb
             SqlConnection cnn;
             try
             {
-                cnn = new SqlConnection("Data Source=LAPTOP-5V05KTCM;Initial Catalog=DBPAuto;Integrated Security=True");
+                cnn = new SqlConnection("Data Source=LAPTOP-5V05KTCM;Initial Catalog=DBAutoProy;Integrated Security=True");
                 cnn.Open();
             }
             catch (Exception ex)

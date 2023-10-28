@@ -71,6 +71,7 @@
     <Content Include="Agrega-Viaje.aspx" />
     <Content Include="Auto-compartido.aspx" />
     <Content Include="Index.aspx" />
+    <Content Include="IndexStyles.css" />
     <Content Include="OpUsu.aspx" />
     <Content Include="Perfil.aspx" />
     <Content Include="Web.config" />

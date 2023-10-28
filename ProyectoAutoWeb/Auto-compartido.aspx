@@ -6,8 +6,18 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style>
+        body {background-color:#3CB371; font-family:Arial}
+         h1{background-color:white;text-align:center;color:#3CB371}
+         p{font-size:24px;}
+    </style>
 </head>
 <body>
+     <header>
+     <h1>
+         Redu-CO2
+     </h1>
+ </header>
     <form id="form1" runat="server">
         <div>
             <nav class="menu">
@@ -17,12 +27,12 @@
             <lu><a href="Auto-compartido.aspx">Auto compartido</a></lu>
             <lu><a href="Perfil.aspx">Perfil</a></lu>
             </nav>
+            <br /><p>
+            Si compartes tu auto con otro usuario puedes enlazar sus datos:</p><br />
+           
+            <b>Ingresa los datos:</b><br />
             <br />
-            Si compartes tu auto con otro usuario puedes enlazar sus datos:<br />
-            <br />
-            Ingresa los datos:<br />
-            <br />
-            Clave del auto:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Clave del auto:&nbsp;&nbsp;
             <asp:DropDownList ID="ddIdAu" runat="server">
             </asp:DropDownList>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clave del usuario:
