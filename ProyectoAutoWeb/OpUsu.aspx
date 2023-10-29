@@ -30,24 +30,29 @@
             <b>Información de autos registrados:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
             &nbsp;&nbsp;&nbsp;</b>
             <br />
-            <asp:GridView ID="GridView1" runat="server">
+            <asp:GridView ID="gvDatos" runat="server">
             </asp:GridView>
             <br />
             <br />
             Producción total de CO2:&nbsp;
             <asp:Label ID="txCalCO2" runat="server"></asp:Label>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="btCCO2" runat="server" Text="Calcular" />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btCCO2" runat="server" Text="Calcular" OnClick="btCCO2_Click" />
+
             <br />
             <br />
             Producción total de NOx:&nbsp;
             <asp:Label ID="txCalNOx" runat="server"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="btCNOx" runat="server" Text="Calcular" />
+            <asp:Button ID="btCNOx" runat="server" Text="Calcular" OnClick="btCNOx_Click" />
             <br />
             <br />
             <br />
-            <asp:Button ID="btSalir" runat="server" Height="37px" Text="Salir" Width="122px" />
+            <asp:Button ID="btSalir" runat="server" Height="37px" Text="Salir" Width="122px" OnClick="btSalir_Click" />
             <br />
             <br />
             

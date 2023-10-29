@@ -78,7 +78,29 @@ namespace ProyectoAutoWeb
         protected global::System.Web.UI.WebControls.TextBox txDiaHorViaj;
 
         /// <summary>
+
         /// lbSemVelProm control.
+
+        /// Control btDia.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btDia;
+
+        /// <summary>
+        /// Control lbDias.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbDias;
+
+        /// <summary>
+        /// Control lbSemVelProm.
+
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
@@ -132,7 +154,29 @@ namespace ProyectoAutoWeb
         protected global::System.Web.UI.WebControls.TextBox txSemDias;
 
         /// <summary>
+<<<<<<< Diseño
         /// lbMesKm control.
+=======
+        /// Control btSemana.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btSemana;
+
+        /// <summary>
+        /// Control lbSem.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbSem;
+
+        /// <summary>
+        /// Control lbMesKm.
+>>>>>>> master
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
@@ -166,5 +210,32 @@ namespace ProyectoAutoWeb
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txMesDiaUs;
+
+        /// <summary>
+        /// Control btMes.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btMes;
+
+        /// <summary>
+        /// Control lbMes.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbMes;
+
+        /// <summary>
+        /// Control lbExi.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbExi;
     }
 }
