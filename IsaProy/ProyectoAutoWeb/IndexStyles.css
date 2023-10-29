@@ -1,0 +1,66 @@
+﻿body {
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #3CB371; /* Verde Medioambiental */
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.separator {
+    border-top: 1px solid #000000; /* Color y grosor de la línea */
+    height: 50px; /* Altura de la línea */
+}
